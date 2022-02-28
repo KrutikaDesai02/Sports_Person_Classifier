@@ -15,7 +15,8 @@ ul {
 }
 
 .my-class {
-  background-image: url('./images/sports.jpg');
+  background-color: rgb(247, 236, 239);
+  ;
 }
 
 .custom-circle-image img {
