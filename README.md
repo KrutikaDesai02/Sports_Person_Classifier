@@ -16,3 +16,21 @@
 * From our website we drop an image of Sport person to identify his/her name.
 
  ![](/images/virat5.png)
+
+# How to run the project
+
+1. Open the project folder 
+(if using VSCode, run this command for further process:
+ `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force`)
+
+2. `cd server`
+
+3. create a envornment using: `python -m venv {name}` and run `.\{name}\Scripts\activate ` on terminal
+
+4. `pip install requirements.txt`
+
+5. `python server.py` . This will start the development server.
+
+6. Access the frontend by opening the index.html file at root or /index.html in project folder
+
+7. test the project by droping test image from /server/test_images.
